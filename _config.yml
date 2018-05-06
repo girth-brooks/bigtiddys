@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Fur
+title: Big Tiddy's
 url: "https://girth-brooks.github.io/bigtiddys"
 baseurl:
 google_analytics_key:
@@ -10,11 +10,11 @@ snipcart_key: "NWNjOWZhYjctYmE1ZS00MDM3LThkNjUtZmE5M2NiMTU1NzAwNjM2MjYzNTE1MzM5O
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Fur t-shirt store
+description: Irreverent Fun For The Whole Family
 author:
-  name: fur
-  email: fur@example.com
-  twitter: fur # twitter username without the @ symbol
+  name: Big Tiddy's
+  email: contact@bigtiddys.com
+  twitter: big-tiddys # twitter username without the @ symbol
   phone: "+1 23456789"
 social:
   name: Fur Template
@@ -35,22 +35,23 @@ collections:
 permalink: pretty
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "products"
     values:
       layout: "product"
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "page"
-  -
-    scope:
+  - scope:
       path: "index.html"
     values:
       layout: "default"
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 
 jekyll-archives:
   enabled:
